@@ -1,0 +1,7 @@
+{application, rank,
+ [{description, "Game Rank"},
+  {vsn, "1"},
+  {modules, [game_rank]},
+  {registered, []},
+  {applications, [kernel, stdlib]}]}.
+
